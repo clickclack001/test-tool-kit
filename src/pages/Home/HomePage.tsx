@@ -4,7 +4,7 @@ import { useQuery, gql } from '@apollo/client';
 import { createStore, createEvent } from 'effector';
 import { useStore } from 'effector-react';
 import { debounce } from '../../shared/utils/debounce';
-import './HomePage.css';  // Импортируем стили
+import './HomePage.css';
 
 const SEARCH_REPOS = gql`
   query SearchRepos($query: String!, $first: Int!, $after: String) {

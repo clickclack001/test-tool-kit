@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useQuery, gql } from '@apollo/client';
-import './RepositoryPage.css'; // Импортируем стили
+import './RepositoryPage.css';
 
 const GET_REPOSITORY = gql`
   query GetRepository($owner: String!, $name: String!) {
