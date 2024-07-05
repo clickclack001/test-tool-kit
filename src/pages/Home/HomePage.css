@@ -1,0 +1,64 @@
+/* src/components/HomePage/HomePage.css */
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li a {
+    text-decoration: none;
+    color: #0070f3;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li span {
+    margin-left: 10px;
+    color: #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Стили для пагинации */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+.pagination button:focus {
+    outline: none;
+}
+
+.pagination .active {
+    font-weight: bold;
+    border-color: #0070f3;
+    background-color: #e6f7ff;
+}

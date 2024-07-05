@@ -1,0 +1,77 @@
+/* src/components/RepositoryPage/RepositoryPage.css */
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.repository-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.repository-header h1 {
+    margin-right: 10px;
+}
+
+.repository-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.repository-header a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.repository-header a:hover {
+    text-decoration: underline;
+}
+
+.repository-header span {
+    font-size: 14px;
+    color: #586069;
+    margin-left: 5px;
+}
+
+.repository-description {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.languages {
+    margin-bottom: 20px;
+}
+
+.languages span {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #f1f8ff;
+    color: #0366d6;
+    border-radius: 20px;
+}
+
+.languages span:last-child {
+    margin-right: 0;
+}
+
+.languages span:hover {
+    background-color: #c8e1ff;
+}
+
+.languages span::after {
+    content: ',';
+    margin-left: 5px;
+}
+
+.languages span:last-child::after {
+    content: '';
+}
+
